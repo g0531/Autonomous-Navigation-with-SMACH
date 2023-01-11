@@ -25,5 +25,5 @@ roslaunch aruco_marker_finder_4.launch markerID:=4 markerSize:=0.05
 ## Step 3: roslaunch navigation based on the map.yaml on PC
 roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml
 
-# Step 4: start the SMACH GUI on PC to visually observe the current running process
+## Step 4: start the SMACH GUI on PC to visually observe the current running process
 rosrun smach_viewer smach_viewer.py
