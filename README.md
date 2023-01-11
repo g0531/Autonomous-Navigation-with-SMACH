@@ -1,9 +1,9 @@
 # Autonomous-Navigation-with-SMACH
 THis lab uses a state machine SMACH to sequence the tasks: 
 
-First the robot shoud successively move to P2,P3,p4 and back to P1 in that order. 
+First, the robot shoud successively move to P2,P3,p4 and back to P1 in that order. 
 
-Then upon returning to P1, the robot should move toward the ArUco marker to recognize the ID of the marker n=2, 3 or 4. 
+Then, upon returning to P1, the robot should move toward the ArUco marker to recognize the ID of the marker n=2, 3 or 4. 
 
 Third, after recognizing the ID, the robot sould beep with the buzzer on TurtleBOt3 n times and then move to Pn before coming to a stop.
 ## Step 1: install SMACH
