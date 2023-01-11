@@ -15,7 +15,7 @@ roslaunch hls_lfcd_lds_driver hlds_laser.launch
 
 roslaunch raspicam_node camerav2_410x308_30fps.launch 
 
-## Step 3: roslaunch to recognize ArUco marker ID on PC
+## Step 3: roslaunch on PC to recognize ArUco marker ID 
 roslaunch aruco_marker_finder_2.launch markerID:=2 markerSize:=0.05
 
 roslaunch aruco_marker_finder_3.launch markerID:=3 markerSize:=0.05
