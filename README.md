@@ -8,7 +8,7 @@ Then, upon returning to P1, the robot should move toward the ArUco marker to rec
 Third, after recognizing the ID, the robot sould beep with the buzzer on TurtleBOt3 n times and then move to Pn before coming to a stop.
 ## Step 1: install SMACH
 sudo apt-get install ros-melodic-smach-ros
-## Step 2: robot set up
+## Step 2: SBC set up
 roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
 roslaunch hls_lfcd_lds_driver hlds_laser.launch
