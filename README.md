@@ -17,7 +17,9 @@ roslaunch raspicam_node camerav2_410x308_30fps.launch
 
 ## Step 3: roslaunch to recognize ArUco marker ID on PC
 roslaunch aruco_marker_finder_2.launch markerID:=2 markerSize:=0.05
+
 roslaunch aruco_marker_finder_3.launch markerID:=3 markerSize:=0.05
+
 roslaunch aruco_marker_finder_4.launch markerID:=4 markerSize:=0.05
 
 ## Step 3: roslaunch navigation based on the map.yaml on PC
